@@ -1,0 +1,142 @@
+{
+  "data": {
+    "array": [
+      {
+        "carId": 17848,
+        "kbaNumbers": {
+          "array": [
+            {
+              "kbaNo": "0035032"
+            },
+            {
+              "kbaNo": "0035ACW"
+            },
+            {
+              "kbaNo": "0035AMG"
+            }
+          ]
+        },
+        "motorCodes": "",
+        "vehicleDetails": {
+          "carId": 17848,
+          "ccmTech": 1686,
+          "constructionType": "Viistoper�",
+          "constructionType2": "Viistoperä",
+          "cylinder": 4,
+          "cylinderCapacityCcm": 1686,
+          "cylinderCapacityLiter": 170,
+          "fuelType": "Diesel",
+          "fuelTypeProcess": "Suoraruiskutus",
+          "impulsionType": "Etuveto",
+          "manuId": 84,
+          "manuName": "OPEL",
+          "modId": 5098,
+          "modelName": "ASTRA H",
+          "motorType": "Diesel",
+          "powerHpFrom": 100,
+          "powerHpTo": 100,
+          "powerKwFrom": 74,
+          "powerKwTo": 74,
+          "typeName": "1.7 CDTI",
+          "typeNumber": 17848,
+          "valves": 4,
+          "yearOfConstrFrom": 200403,
+          "yearOfConstrTo": 201211
+        }
+      },
+      {
+        "carId": 20348,
+        "kbaNumbers": {
+          "array": [
+            {
+              "kbaNo": "7100AAA"
+            }
+          ]
+        },
+        "motorCodes": "",
+        "protoTypes": {
+          "array": [
+            {
+              "prototype": "FA"
+            },
+            {
+              "prototype": "FD"
+            }
+          ]
+        },
+        "vehicleDetails": {
+          "carId": 20348,
+          "ccmTech": 1798,
+          "constructionType": "Sedan",
+          "cylinder": 4,
+          "cylinderCapacityCcm": 1798,
+          "cylinderCapacityLiter": 180,
+          "fuelType": "Bensiini",
+          "fuelTypeProcess": "Imusarjaruiskutus/kaasutin",
+          "impulsionType": "Etuveto",
+          "manuId": 45,
+          "manuName": "HONDA",
+          "modId": 5517,
+          "modelName": "CIVIC VIII Sedan (FD, FA)",
+          "motorType": "Bensiinimoottori",
+          "powerHpFrom": 140,
+          "powerHpTo": 140,
+          "powerKwFrom": 103,
+          "powerKwTo": 103,
+          "typeName": 1.8,
+          "typeNumber": 20348,
+          "valves": 4,
+          "yearOfConstrFrom": 200509,
+          "yearOfConstrTo": 201202
+        }
+      },
+      {
+        "carId": 17216,
+        "kbaNumbers": {
+          "array": [
+            {
+              "kbaNo": "5013ABV"
+            },
+            {
+              "kbaNo": 5048025
+            }
+          ]
+        },
+        "motorCodes": "",
+        "protoTypes": {
+          "array": [
+            {
+              "prototype": "T25"
+            }
+          ]
+        },
+        "vehicleDetails": {
+          "carId": 17216,
+          "ccmTech": 1794,
+          "constructionType": "Sedan",
+          "cylinder": 4,
+          "cylinderCapacityCcm": 1794,
+          "cylinderCapacityLiter": 180,
+          "fuelType": "Bensiini",
+          "fuelTypeProcess": "Imusarjaruiskutus/kaasutin",
+          "impulsionType": "Etuveto",
+          "manuId": 111,
+          "manuName": "TOYOTA",
+          "modId": 4975,
+          "modelName": "AVENSIS Sedan (T25)",
+          "motorType": "Bensiinimoottori",
+          "powerHpFrom": 129,
+          "powerHpTo": 129,
+          "powerKwFrom": 95,
+          "powerKwTo": 95,
+          "typeName": 1.8,
+          "typeNumber": 17216,
+          "valves": 4,
+          "yearOfConstrFrom": 200304,
+          "yearOfConstrTo": 200811
+        }
+      }
+    ]
+  },
+  "status": 200
+}

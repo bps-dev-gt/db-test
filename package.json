@@ -1,0 +1,15 @@
+{
+  "name": "db-test",
+  "description": "DB Dev Test",
+  "version": "1.0.",
+  "main": "src/root/index.html",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "8.0.0"
+  },
+  "scripts": {
+    "run": "export NODE_PATH=src && node scripts/run.js",
+    "save-distro": "bash scripts/podman-save-distro.sh"
+  }
+}
