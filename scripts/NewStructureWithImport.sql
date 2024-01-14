@@ -66,7 +66,7 @@ select --
        prd."productCategoryUID",
        prd.koodi::varchar(25) as "productSKU",
        null::bigint           as "productUPC",
-       now()::timestamp       as "tsProductAddedd"
+       now()::timestamp       as "tsProductAdded"
 into fd."Products"
 from sanitized.san_tst_tuote prd;
 
@@ -74,10 +74,10 @@ alter table fd."Products"
     alter column "productCategoryUID" set not null;
 
 alter table fd."Products"
-    alter column "tsProductAddedd" set not null;
+    alter column "tsProductAdded" set not null;
 
 alter table fd."Products"
-    alter column "tsProductAddedd" set default current_timestamp;
+    alter column "tsProductAdded" set default current_timestamp;
 
 alter table fd."Products"
     add constraint "pkProducts"

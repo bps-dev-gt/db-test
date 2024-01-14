@@ -73,6 +73,8 @@ create trigger "validateSalesArmsDelete"
     for each row
 execute function fd."onValidateSalesArmsDelete"();
 
+-- Add some test data
+--- Top level
 insert into fd."SalesArms"("salesArmName", "salesArmLevel", "salesArmParentUID")
 values ('Hunting', 1, null);
 insert into fd."SalesArms"("salesArmName", "salesArmLevel", "salesArmParentUID")
@@ -81,7 +83,7 @@ insert into fd."SalesArms"("salesArmName", "salesArmLevel", "salesArmParentUID")
 values ('Bicycling', 1, null);
 insert into fd."SalesArms"("salesArmName", "salesArmLevel", "salesArmParentUID")
 values ('Hiking', 1, null);
-
+--- Second level
 insert into fd."SalesArms"("salesArmName", "salesArmLevel", "salesArmParentUID")
 values ('Traps', 2, (select "salesArmUID" from fd."SalesArms" where "salesArmName" = 'Hunting'));
 insert into fd."SalesArms"("salesArmName", "salesArmLevel", "salesArmParentUID")
@@ -92,7 +94,7 @@ insert into fd."SalesArms"("salesArmName", "salesArmLevel", "salesArmParentUID")
 values ('Hiking clothes', 2, (select "salesArmUID" from fd."SalesArms" where "salesArmName" = 'Hiking'));
 insert into fd."SalesArms"("salesArmName", "salesArmLevel", "salesArmParentUID")
 values ('Sleeping bags', 2, (select "salesArmUID" from fd."SalesArms" where "salesArmName" = 'Hiking'));
-
+-- Third level
 insert into fd."SalesArms"("salesArmName", "salesArmLevel", "salesArmParentUID")
 values ('Bullets', 3, (select "salesArmUID" from fd."SalesArms" where "salesArmName" = 'Guns'));
 insert into fd."SalesArms"("salesArmName", "salesArmLevel", "salesArmParentUID")
