@@ -11,4 +11,5 @@ Results of the database developer's test.
 - [Data structure](./T-04.md)
 - [Customers' duplicates](./T-05.md)
 - [Split sales records](./T-06.md)
+- [Load JSON data](./T-07.md)
 
