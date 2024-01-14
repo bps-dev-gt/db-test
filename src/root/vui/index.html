@@ -4,21 +4,46 @@
     <meta charset="UTF-8">
     <base href="/vui/">
     <title>Welcome</title>
+    <link rel="stylesheet" href="assets/styles/basic.css">
 </head>
 <body id="v-app">
-<h1>Welcome</h1>
-<p>Some fake data for you</p>
-<table>
+<h1>Demo</h1>
+<p id="statusMessage">Loading...</p>
+<table id="carsDataTable">
     <thead>
     <tr>
-        <td>Id</td>
+        <th>carId</th>
+        <th>kbaNumbers</th>
+        <th>ccmTech</th>
+        <th>constructionType</th>
+        <th>constructionType2</th>
+        <th>cylinder</th>
+        <th>cylinderCapacityCcm</th>
+        <th>cylinderCapacityLiter</th>
+        <th>fuelType</th>
+        <th>fuelTypeProcess</th>
+        <th>impulsionType</th>
+        <th>manuId</th>
+        <th>manuName</th>
+        <th>modId</th>
+        <th>modelName</th>
+        <th>motorType</th>
+        <th>powerHpFrom</th>
+        <th>powerHpTo</th>
+        <th>powerKwFrom</th>
+        <th>powerKwTo</th>
+        <th>typeName</th>
+        <th>typeNumber</th>
+        <th>valves</th>
+        <th>yearOfConstrFrom</th>
+        <th>yearOfConstrTo</th>
     </tr>
     </thead>
-    <tbody>
+    <tbody id="carsDataTableBody">
     </tbody>
 </table>
 <script type="module">
-    import VApp from "./js/VApp.js";
+    import VApp from "./assets/js/VApp.js";
 
     VApp.hook();
 </script>
