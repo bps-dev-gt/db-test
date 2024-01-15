@@ -1,0 +1,5 @@
+.DS_Store
+.idea
+/node_modules
+/SQL-tehtävät 2024.pdf
+package-lock.json
